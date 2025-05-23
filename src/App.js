@@ -7,6 +7,7 @@ import About from './Pages/AboutUs';
 import Menu from './Pages/Menu';
 import FinishOrder from './Pages/FinishOrder';
 import ContactUs from './Pages/ContactUs';
+import OrderSuccess from './Pages/Order-Success';
 
 // Example components for routing
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/finish-order" element={<FinishOrder />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/order-success" element={<OrderSuccess />} />
         {/* Add more routes here as needed */}
       </Routes>
     </Router>
